@@ -1,7 +1,7 @@
 const express = require('express');
 const server = express();
 const port = 4000;
-const data = require('../data/world-cup.json');
+const data = require('./data.json');
 const expressGraphQL = require('express-graphql').graphqlHTTP;
 
 const {
